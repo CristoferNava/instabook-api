@@ -1,4 +1,3 @@
-from pydantic.errors import EmailError
 from sqlalchemy.orm.session import Session
 from routers.schemas import UserBase
 from db.models import DbUser
